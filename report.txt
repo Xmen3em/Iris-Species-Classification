@@ -1,0 +1,20 @@
+1. There are no missing values and there are 3 duplicate values which I remove
+
+2. There is one classification column (target) and it is handled by the map function
+
+3. From the correlation matrix we see that the target category column has a very positive correlation with sepal_width and a very negative correlation with
+     Sepal length, petal length, and petal width
+
+4. From the distribution graph we see that the bars are normally distributed
+
+5. There are some outliers in the petal_width feature and I removed them
+
+6. We select all columns while applying feature selection by ANOVA test and before we see the relationship between independent and dependent feature is highly correlated
+
+7. We apply standardization on independent features to logistic regression modeling, SVM, and K-NN models
+
+8. We implemented RepeatedStratifiedKFold and cross_val_score to avoid over-fitting the data
+
+9. Logistic regression is the best model with a cross_val_score of 96.5%
+
+10. I do not see that challenges in this project are difficult
